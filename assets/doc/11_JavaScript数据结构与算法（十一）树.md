@@ -6,7 +6,7 @@
 
 #### 真实的树：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.6pnzzxbinjs0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.6pnzzxbinjs0.png)
 
 #### 树的特点：
 
@@ -16,7 +16,7 @@
 
 现实生活中很多结构都是树的抽象，模拟的树结构相当于旋转 `180°` 的树。
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4mrygbtnd6w0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4mrygbtnd6w0.png)
 
 #### 树结构对比于数组/链表/哈希表有哪些优势呢？
 
@@ -51,7 +51,7 @@
 
 #### 树的常用术语：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.3t0ypfn5leo0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.3t0ypfn5leo0.png)
 
 - 节点的度（Degree）：节点的子树个数，比如节点 B 的度为 2；
 - 树的度：树的所有节点中最大的度数，如上图树的度为 2；
@@ -67,7 +67,7 @@
 
 ##### 最普通的表示方法：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4v9sayu9zu60.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4v9sayu9zu60.png)
 
 如图，树结构的组成方式类似于链表，都是由一个个节点连接构成。不过，根据每个父节点子节点数量的不同，每一个父节点需要的引用数量也不同。比如节点 A 需要 3 个引用，分别指向子节点 B，C，D；B 节点需要 2 个引用，分别指向子节点 E 和 F；K 节点由于没有子节点，所以不需要引用。
 
@@ -75,7 +75,7 @@
 
 ##### 儿子-兄弟表示法：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.3o34yy6h0420.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.3o34yy6h0420.png)
 
 这种表示方法可以完整地记录每个节点的数据，比如：
 
@@ -111,10 +111,10 @@ Node{
 
 以下为儿子-兄弟表示法组成的树结构：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.6tucreh71ok0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.6tucreh71ok0.png)
 
 将其顺时针旋转 45° 之后：
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4blmsiyhevg0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4blmsiyhevg0.png)
 
 这样就成为了一棵二叉树，由此我们可以得出结论：任何树都可以通过二叉树进行模拟。但是这样父节点不是变了吗？其实，父节点的设置只是为了方便指向子节点，在代码实现中谁是父节点并没有关系，只要能正确找到对应节点即可。

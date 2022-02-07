@@ -1,6 +1,12 @@
+/*
+ * @Author: wangtao
+ * @Date: 2022-02-07 14:27:50
+ * @LastEditors: 汪滔
+ * @LastEditTime: 2022-02-07 14:45:23
+ * @Description: file content
+ */
 // 栈结构的封装
 export default class Stack {
-
   constructor() {
     this.items = [];
   }

@@ -1,9 +1,17 @@
+/*
+ * @Author: wangtao
+ * @Date: 2022-02-07 14:27:50
+ * @LastEditors: 汪滔
+ * @LastEditTime: 2022-02-07 14:39:44
+ * @Description: file content
+ */
 import Stack from './stack';
 import dec2bin from './dec2bin';
 
 // ---------------- 封装的栈结构测试 ---------------- //
 console.log('// ----- 栈结构测试 START -----//');
 const stack = new Stack();
+console.log('🚀🚀🚀wimi======>>>stack',stack)
 
 // push() 测试
 stack.push(1);

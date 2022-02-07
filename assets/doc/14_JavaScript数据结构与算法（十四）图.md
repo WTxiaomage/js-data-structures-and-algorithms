@@ -14,13 +14,13 @@
 - 那么图长什么样子呢？或者什么样的数据使用图来模拟更合适呢？
 
   - 人与人之间的关系网
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4cdhxz0ereu0.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4cdhxz0ereu0.png)
 
   - 互联网中的网络关系
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4ljxyy69a1s0.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4ljxyy69a1s0.png)
 
   - 广州地铁图
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.46k2cvwmthw0.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.46k2cvwmthw0.png)
 
 - 那么，什么是图呢?
 
@@ -41,7 +41,7 @@
 - 但是图的术语其实非常多，如果你找一本专门讲图的各个方面的书籍，会发现只是术语就可以占据一个章节。
 - 这里，这里介绍几个比较常见的术语，某些术语后面用到的时候，再了解，没有用到的，不做赘述。
 - 下面这是个抽象出来的图
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.rr153grdbc0.png)
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.rr153grdbc0.png)
 
 - 顶点
 
@@ -92,7 +92,7 @@
   - 带权图表示边有一定的权重
   - 这里的权重可以是任意你希望表示的数据：比如距离或者花费的时间或者票价。
   - 我们来看一张有向和带权的图
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.3q0nj5eq5p80.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.3q0nj5eq5p80.png)
 
 ### 现实建模
 
@@ -133,7 +133,7 @@
   - 邻接矩阵让每个节点和一个整数向关联, 该整数作为数组的下标值.
   - 我们用一个二维数组来表示顶点之间的连接.
   - 演示
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.66y7l5b21nw0.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.66y7l5b21nw0.png)
 
 - 图片解析
 
@@ -159,7 +159,7 @@
   - 邻接表由图中每个顶点以及和顶点相邻的顶点列表组成。
   - 这个列表有很多中方式来存储：数组/链表/字典(哈希表)都可以。
   - 演示
-    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.3mu1hv8a84u0.png)
+    ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.3mu1hv8a84u0.png)
 
 - 图片解析
 
@@ -315,7 +315,7 @@ _initializeColor() {
   广度优先算法会从指定的第一个顶点开始遍历图，先访问其所有的相邻点，就像一次访问图的一层。换句话说，就是先宽后深的访问顶点。
 
 - 图解 BFS
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.3vz7fx7tgvs0.png)
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.3vz7fx7tgvs0.png)
 
 - 广度优先搜索的实现
 
@@ -381,7 +381,7 @@ _initializeColor() {
 - 深度优先搜索算法将会从第一个指定的顶点开始遍历图，沿着路径知道这条路径最后被访问了。
 - 接着原路回退并探索下一条路径。
 - 图解 DFS
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.1bjimck65r8g.png)
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.1bjimck65r8g.png)
 
 深度优先搜索算法的实现：
 
@@ -436,6 +436,5 @@ _initializeColor() {
   ```
 
 - 递归的代码较难理解一些，这副图来帮助理解过程：
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.6z6nkgmevxo0.png)
-
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.6z6nkgmevxo0.png)
 

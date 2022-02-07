@@ -14,11 +14,11 @@
 - 排队，比如在电影院，商场，甚至是厕所排队。
 - 优先排队的人，优先处理。 (买票、结账、WC)。
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.5mmiw2kdwbs0.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.5mmiw2kdwbs0.png)
 
 ### 队列图解
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.mq92bw3am0g.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.mq92bw3am0g-20220207153113862.png)
 
 ### 队列在程序中的应用
 

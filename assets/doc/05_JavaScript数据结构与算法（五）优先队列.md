@@ -140,4 +140,4 @@ console.log(priorityQueue.toString()); //--> B-15 E-18 D-20
 
 ## 数组、栈和队列图解
 
-![数组、栈和队列图解](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.64kg5ej56vk0.png)
+![数组、栈和队列图解](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.64kg5ej56vk0.png)

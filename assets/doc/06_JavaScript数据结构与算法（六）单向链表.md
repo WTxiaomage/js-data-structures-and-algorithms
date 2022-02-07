@@ -48,7 +48,7 @@
 
 - 链表的火车结构
 
-  ![链表的火车结构](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.27xtn3c52zwg.png)
+  ![链表的火车结构](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.27xtn3c52zwg.png)
 
 - 链表的数据结构
 
@@ -56,11 +56,11 @@
   链表中的最后一个节点指向 `null`。
   当链表中一个节点也没有的时候，head 直接指向 `null`。
 
-  ![链表的数据结构](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.37j1by46a120.png)
+  ![链表的数据结构](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.37j1by46a120.png)
 
 - 给火车加上数据后的结构
 
-  ![给火车加上数据后的结构](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.664djiie2t80.png)
+  ![给火车加上数据后的结构](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.664djiie2t80.png)
 
 ### 链表中的常见操作
 
@@ -141,11 +141,11 @@ append(data) {
 
 - 首先让 `currentNode` 指向第一个节点。
 
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.5iskrdf4nu40.png)
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.5iskrdf4nu40.png)
 
 - 通过 `while` 循环使 `currentNode` 指向最后一个节点，最后通过 `currentNode.next = newNode`，让最后一个节点指向新节点 `newNode`。
 
-  ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.4mw3bx5g80m0.png)
+  ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.4mw3bx5g80m0.png)
 
 ##### 代码测试
 
@@ -158,7 +158,7 @@ linkedList.append("C");
 console.log(linkedList);
 ```
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/JavaScript-数据结构与算法/image.6kx4qbq8e5c.png)
+![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.6kx4qbq8e5c.png)
 
 #### 实现 toString() 方法
 
