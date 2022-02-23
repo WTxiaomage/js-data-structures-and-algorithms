@@ -438,3 +438,16 @@ _initializeColor() {
 - 递归的代码较难理解一些，这副图来帮助理解过程：
   ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.6z6nkgmevxo0.png)
 
+![image-20220223142501645](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/20220223142508.png)
+
+
+
+
+
+
+
+
+
+
+
+![image-20220223143556155](/Users/wangtao/Library/Application Support/typora-user-images/image-20220223143556155.png)
