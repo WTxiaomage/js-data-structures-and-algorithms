@@ -1,3 +1,10 @@
+<!--
+ * @Author: wangtao
+ * @Date: 2022-02-21 16:11:09
+ * @LastEditors: 汪滔
+ * @LastEditTime: 2022-07-14 08:11:56
+ * @Description: file content
+-->
 # JavaScript 数据结构与算法（十二）二叉树
 
 ## 二叉树
@@ -21,7 +28,7 @@
 
 - 一个二叉树的第 i 层的最大节点树为：2^(i-1)^，i >= 1；
 - 深度为 k 的二叉树的最大节点总数为：2^k^ - 1 ，k >= 1；
-- 对任何非空二叉树，若 n~0~ 表示叶子节点的个数，n~2~表示度为 2 的非叶子节点个数，那么两者满足关系：n~0~ = n~2~ + 1；如下图所示：H，E，I，J，G 为叶子节点，总数为 5；A，B，C，F 为度为 2 的非叶子节点，总数为 4；满足 n~0~ = n~2~ + 1 的规律。
+- 对任何非空二叉树，若 n0 表示叶子节点的个数，n2表示度为 2 的非叶子节点个数，那么两者满足关系：n0 = n2 + 1；如下图所示：H，E，I，J，G 为叶子节点，总数为 5；A，B，C，F 为度为 2 的非叶子节点，总数为 4；满足 n0 = n2 + 1 的规律。
 
 ![image](https://cdn.jsdelivr.net/gh/WTxiaomage/imgsbed/posts/image.syjwffjltmo.png)
 
